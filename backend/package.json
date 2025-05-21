@@ -1,0 +1,42 @@
+{
+  "name": "form-backend",
+  "version": "1.0.0",
+  "description": "Form Backend",
+  "type": "module",
+  "main": "src/index.ts",
+  "scripts": {
+    "dev": "tsx --watch src/index.ts",
+    "start": "tsx --watch src/index.ts",
+    "build": "tsc",
+    "lint": "eslint . --fix",
+    "watch": "tsc --watch",
+    "prettier:check": "prettier -c .",
+    "prettier": "prettier -w -u .",
+    "prepare": "husky"
+  },
+  "keywords": [],
+  "author": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "dotenv-expand": "^12.0.2",
+    "drizzle-orm": "^0.43.1",
+    "express": "^5.1.0",
+    "mongoose": "^8.15.0",
+    "postgres": "^3.4.5",
+    "typescript": "^5.8.3",
+    "zod": "^3.25.7"
+  },
+  "devDependencies": {
+    "@harshalkatakiya/prettier-config": "^1.0.28",
+    "@types/cors": "^2.8.18",
+    "@types/express": "^5.0.2",
+    "@types/node": "^22.15.19",
+    "drizzle-kit": "^0.31.1",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.0.0",
+    "prettier": "^3.5.3",
+    "tsconfig-paths": "^4.2.0",
+    "tsx": "^4.19.4"
+  }
+}
